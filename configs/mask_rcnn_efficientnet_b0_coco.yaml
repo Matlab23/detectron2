@@ -1,0 +1,11 @@
+MODEL:
+  BACKBONE:
+    NAME: "efficientnet-b0"
+    OUT_CHANNES: 1281
+    SOLVER:
+  IMS_PER_BATCH: 2
+  MAX_ITER: 40000
+
+MODEL:
+  ROI_HEADS:
+    NUM_CLASSES: 80
